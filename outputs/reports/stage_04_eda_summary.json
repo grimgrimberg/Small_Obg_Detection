@@ -1,0 +1,87 @@
+{
+  "trusted_image_count": 166,
+  "trusted_box_count": 10464,
+  "class_image_counts": {
+    "fish": 64,
+    "fly": 50,
+    "honeybee": 50,
+    "seagull": 2
+  },
+  "class_box_counts": {
+    "fish": 3581,
+    "fly": 3607,
+    "honeybee": 1543,
+    "seagull": 1733
+  },
+  "image_width_summary": {
+    "count": 166.0,
+    "mean": 515.229,
+    "std": 174.552,
+    "min": 300.0,
+    "25%": 300.0,
+    "50%": 640.0,
+    "75%": 648.0,
+    "max": 964.0
+  },
+  "image_height_summary": {
+    "count": 166.0,
+    "mean": 331.855,
+    "std": 174.688,
+    "min": 72.0,
+    "25%": 72.0,
+    "50%": 410.0,
+    "75%": 480.0,
+    "max": 624.0
+  },
+  "boxes_per_image_summary": {
+    "count": 166.0,
+    "mean": 63.036,
+    "std": 94.39,
+    "min": 13.0,
+    "25%": 30.0,
+    "50%": 51.0,
+    "75%": 63.75,
+    "max": 971.0
+  },
+  "box_width_summary": {
+    "count": 10464.0,
+    "mean": 20.181,
+    "std": 7.992,
+    "min": 4.0,
+    "25%": 14.0,
+    "50%": 20.0,
+    "75%": 24.0,
+    "max": 55.0
+  },
+  "box_height_summary": {
+    "count": 10464.0,
+    "mean": 17.565,
+    "std": 7.97,
+    "min": 6.0,
+    "25%": 12.0,
+    "50%": 17.0,
+    "75%": 20.0,
+    "max": 54.0
+  },
+  "box_area_ratio_summary": {
+    "count": 10464.0,
+    "mean": 0.002627,
+    "std": 0.001142,
+    "min": 0.000249,
+    "25%": 0.002058,
+    "50%": 0.002743,
+    "75%": 0.003429,
+    "max": 0.007207
+  },
+  "clipped_box_fraction": 0.05762614678899083,
+  "seagull_imbalance": {
+    "image_count": 2,
+    "box_count": 1733,
+    "majority_image_class": "fish",
+    "majority_image_count": 64,
+    "majority_box_count": 3607,
+    "majority_to_seagull_image_ratio": 32.0,
+    "majority_to_seagull_box_ratio": 2.0813618003462206,
+    "risk_statement": "Seagull is a few-shot class with only two trusted original images; results for this class should be treated as high variance and high risk."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "classification_loss": 1.1290453672409058,
+  "regression_loss": 0.10668817162513733,
+  "total_loss": 1.2357335090637207,
+  "num_positive_anchors": 393,
+  "num_negative_anchors": 95708,
+  "num_ignored_anchors": 667,
+  "decoded_counts": [
+    50,
+    50
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "total_images": 167,
+  "trusted_image_count": 166,
+  "total_boxes": 10464,
+  "few_shot_images": 2,
+  "empty_annotation_images": 1,
+  "annotation_mismatch_count": 1,
+  "mean_dot_coverage_center": 0.9204336163569234,
+  "mean_dot_coverage_top_left": 0.2743987189212817,
+  "preferred_mode_counts": {
+    "center": 166,
+    "unverified_mismatch": 1
+  },
+  "center_oob_images": 147,
+  "top_left_oob_images": 159,
+  "low_center_coverage_count": 11,
+  "severe_center_oob_count": 49,
+  "suspicious_sample_count": 57
+}

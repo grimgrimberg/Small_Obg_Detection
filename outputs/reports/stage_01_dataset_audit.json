@@ -1,0 +1,68 @@
+{
+  "dataset_root": "C:\\Users\\yuval\\.cache\\kagglehub\\datasets\\daenys2000\\small-object-dataset\\versions\\1\\Small Object dataset",
+  "download_method": "kagglehub.dataset_download('daenys2000/small-object-dataset')",
+  "observed_on": "2026-03-15",
+  "summary": {
+    "train": {
+      "fish": {
+        "img": 65,
+        "gt-bbox": 65,
+        "gt-dots": 65
+      },
+      "fly": {
+        "img": 50,
+        "gt-bbox": 50,
+        "gt-dots": 50
+      },
+      "honeybee": {
+        "img": 50,
+        "gt-bbox": 50,
+        "gt-dots": 50
+      },
+      "seagull": {
+        "img": 2,
+        "gt-bbox": 2,
+        "gt-dots": 2
+      }
+    },
+    "test": {
+      "fish": {
+        "img": 64,
+        "gt-dots": 64
+      },
+      "fly": {
+        "img": 50,
+        "gt-dots": 50
+      },
+      "honeybee": {
+        "img": 68,
+        "gt-dots": 68
+      },
+      "seagull": {
+        "img": 1,
+        "gt-dots": 1
+      }
+    }
+  },
+  "labeled_image_count": 167,
+  "total_bbox_count": 10464,
+  "empty_bbox_files": 1,
+  "non_empty_bbox_files": 166,
+  "sample_bbox_schema": {
+    "mat_key": "bbox_all",
+    "bbox_format_assumption": "[x, y, w, h]",
+    "sample_shape": [
+      61,
+      4
+    ],
+    "sample_dtype": "uint16"
+  },
+  "stage_hardening": {
+    "cross_validation_pool": "Use only the labeled original images under train/*/img for fold creation.",
+    "empty_annotations": "Treat empty bbox matrices as valid negative-image annotations."
+  },
+  "remaining_uncertainties": [
+    "BBox coordinate semantics still need visual verification against the raw images.",
+    "The provided test split appears unlabeled for bbox detection and should not be used for supervised fold creation."
+  ]
+}

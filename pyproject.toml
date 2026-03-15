@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "small-obj-detection"
+version = "0.1.0"
+description = "Modular anchor-based small-object detector for fish, fly, honeybee, and seagull."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "kagglehub>=1.0.0",
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "pillow>=10.4",
+  "scikit-learn>=1.5",
+  "scipy>=1.13",
+  "torch>=2.3",
+  "torchvision>=0.18",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

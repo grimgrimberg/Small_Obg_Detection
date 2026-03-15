@@ -1,0 +1,33 @@
+{
+  "batch_shape": [
+    2,
+    3,
+    512,
+    512
+  ],
+  "feature_map_shapes": [
+    [
+      64,
+      64
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      16,
+      16
+    ]
+  ],
+  "num_anchors": 48384,
+  "class_logits_shape": [
+    2,
+    48384,
+    4
+  ],
+  "box_deltas_shape": [
+    2,
+    48384,
+    4
+  ]
+}

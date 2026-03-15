@@ -1,0 +1,16 @@
+{
+  "tile_count": 276,
+  "tile_box_count": 10464,
+  "tiles_with_boxes": 276,
+  "tiles_without_boxes": 0,
+  "fold_tile_counts": {
+    "0": 138,
+    "1": 138
+  },
+  "fold_box_counts": {
+    "0": 5299,
+    "1": 5165
+  },
+  "max_boxes_in_tile": 385,
+  "mean_boxes_per_tile": 37.91304347826087
+}

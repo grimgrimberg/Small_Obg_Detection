@@ -1,0 +1,65 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "classification_loss": 1.0927977561950684,
+        "regression_loss": 0.23428799957036972,
+        "total_loss": 1.3270857334136963
+      },
+      "val": {
+        "losses": {
+          "classification_loss": 1.1204849481582642,
+          "regression_loss": 0.09850948303937912,
+          "total_loss": 1.2189944386482239
+        },
+        "metrics": {
+          "per_class": {
+            "fish": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "ap": 0.0,
+              "num_gt": 245,
+              "num_predictions": 0
+            },
+            "fly": {
+              "precision": NaN,
+              "recall": NaN,
+              "f1": NaN,
+              "ap": NaN,
+              "num_gt": 0,
+              "num_predictions": 0
+            },
+            "honeybee": {
+              "precision": NaN,
+              "recall": NaN,
+              "f1": NaN,
+              "ap": NaN,
+              "num_gt": 0,
+              "num_predictions": 0
+            },
+            "seagull": {
+              "precision": NaN,
+              "recall": NaN,
+              "f1": NaN,
+              "ap": NaN,
+              "num_gt": 0,
+              "num_predictions": 0
+            }
+          },
+          "mAP@0.5": 0.0,
+          "mean_precision": 0.0,
+          "mean_recall": 0.0,
+          "mean_f1": 0.0
+        },
+        "gallery_path": "C:\\Users\\yuval\\Small_Obj_detection\\outputs\\plots\\stage_10_smoke_epoch_01.png"
+      }
+    }
+  ],
+  "best_map": 0.0,
+  "best_checkpoint_path": "C:\\Users\\yuval\\Small_Obj_detection\\outputs\\checkpoints\\stage_10_smoke_best.pt",
+  "device": "cpu",
+  "train_subset_size": 4,
+  "val_subset_size": 4
+}
